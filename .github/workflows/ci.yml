@@ -38,7 +38,7 @@ jobs:
           - project: rootNative
             java: temurin@25
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 60
+    timeout-minutes: 15
     steps:
       - name: Checkout current branch (full)
         uses: actions/checkout@v6
